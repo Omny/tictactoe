@@ -1,9 +1,9 @@
 {
-  "name": "@hexlet/nodejs-package",
-  "version": "0.0.3",
-  "description": "Node.js boilerplate package",
+  "name": "@omny/tictactoe",
+  "version": "0.0.1",
+  "description": "TicTacToe - Node JS console game",
   "bin": {
-    "nodejs-package": "bin/nodejs-package.js"
+    "nodejs-package": "bin/game.js"
   },
   "simple-git-hooks": {
     "pre-push": "make lint"
@@ -16,21 +16,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hexlet-boilerplates/nodejs-package.git"
+    "url": "git@github.com:Omny/tictactoe.git"
   },
-  "author": "Kirill Mokevnin",
+  "author": "Artem Petrishchev",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hexlet-boilerplates/nodejs-package/issues"
+    "url": "https://github.com/Omny/tictactoe/issues"
   },
   "type": "module",
-  "homepage": "https://github.com/hexlet-boilerplates/nodejs-package#readme",
+  "homepage": "https://github.com/Omny/tictactoe#readme",
   "dependencies": {
-    "debug": "^4.3.4",
-    "lodash": "^4.17.21"
+    "debug": "^4.3.4"
   },
   "devDependencies": {
     "@jest/globals": "^29.0.1",
+    "@types/jest": "^29.4.0",
     "eslint": "^8.23.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.26.0",
