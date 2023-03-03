@@ -1,6 +1,6 @@
 # tictactoe
 
-[![Node CI](https://github.com/Omny/tictactoe/actions/workflows/nodejs.yml/badge.svg)](https://github.com/Omny/tictactoe/actions/workflows/nodejs.yml)
+[![Node CI](https://github.com/Omny/tictactoe/actions/workflows/nodejs.yml/badge.svg?branch=main)](https://github.com/Omny/tictactoe/actions/workflows/nodejs.yml)
 [![Maintainability](https://api.codeclimate.com/v1/badges/ac4b1de45db4b5173baa/maintainability)](https://codeclimate.com/github/Omny/tictactoe/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/ac4b1de45db4b5173baa/test_coverage)](https://codeclimate.com/github/Omny/tictactoe/test_coverage)
 
