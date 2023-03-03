@@ -1,7 +1,7 @@
 # tictactoe
 
-[![Node CI](https://github.com/Omny/tictactoe/workflows/Node%20CI/badge.svg)](https://github.com/Omny/tictactoe/actions)
-[![Maintainability](https://api.codeclimate.com/v1/badges/dfc50c2d88cd46d069c1/maintainability)](https://codeclimate.com/github/hexlet-boilerplates/nodejs-package/maintainability)
+[![Node CI](https://github.com/Omny/tictactoe/actions/workflows/nodejs.yml/badge.svg)](https://github.com/Omny/tictactoe/actions/workflows/nodejs.yml)
+[![Maintainability](https://api.codeclimate.com/v1/badges/ac4b1de45db4b5173baa/maintainability)](https://codeclimate.com/github/Omny/tictactoe/maintainability)
 
 ## TicTacToe - Node JS Game
 TicTacToe is a well-known game of tic-tac-toe, on a 3x3 field. The main game engine is in the file tictactoe.js. In the strategies directory is the code that is responsible for the behavior of the AI (Artificial Intelligence!). Depending on the chosen level of the game, either Easy strategy or Normal is enabled. The game moves are prescribed in game.js.
