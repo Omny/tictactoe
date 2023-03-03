@@ -1,5 +1,5 @@
 // @ts-check
 
-import half from './src/half.js';
+import TicTacToe from './src/tictactoe.js';
 
-export default half;
+export default TicTacToe;
