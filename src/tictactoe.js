@@ -51,25 +51,27 @@ class TicTacToe {
   }
 
   go(x, y) {
-    let player;
-    let goToX;
-    let goToY;
     if (x !== undefined && y !== undefined) {
-      player = 'user';
-      goToX = x;
-      goToY = y;
-    } else {
-      player = 'comp';
-      ({ goToX, goToY } = this.gameStrategy.makeMove(this));
+      // ходит игрок
+      this.setPoint(x, y, this.player);
+      console.log(
+        this.field
+          .map((row) => row.map((item) => (item === null ? '____' : item)).join(' '))
+          .join('\n'),
+      );
+      console.log('player move', this.areYouWinner(x, y, this.player) ? 'and win' : '', '\n');
+      return this.areYouWinner(x, y, this.player);
     }
-    this.setPoint(goToX, goToY, player);
+    // ходит компьютер
+    const { computerX, computerY } = this.gameStrategy.makeMove(this);
+    this.setPoint(computerX, computerY, this.computer);
     console.log(
       this.field
         .map((row) => row.map((item) => (item === null ? '____' : item)).join(' '))
         .join('\n'),
     );
-    console.log('computer move', this.areYouWinner(goToX, goToY, player) ? 'and win' : '', '\n');
-    return this.areYouWinner(goToX, goToY, player);
+    console.log('computer move', this.areYouWinner(computerX, computerY, this.computer) ? 'and win' : '', '\n');
+    return this.areYouWinner(computerX, computerY, this.computer);
   }
   // END
 }
